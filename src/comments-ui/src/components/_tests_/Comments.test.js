@@ -26,10 +26,9 @@ render(
 
 test('renders Comments component', async () => {
     renderComments("Nikki");
+    socket.socketClient.emit('message:new', ['message1', 'message2']);
     socket.on('message:new', (data)=>{
       expect(data).toEqual(['message1', 'message2']);
-      socket.socketClient.emit('message:new', ['message1', 'message2']);
-
   });
 });
 

@@ -18,17 +18,30 @@ This project is created using create react app. If you do not have the configura
   ```
 2. If you have issues with Python or node-gyp, please make sure to download it separately using npm.
 
-### Install/Run in Development
+### Install & Run in Development
 
 ```
-$ npm install
+$ npm install / npm i
 $ npm run dev
+```
+
+To install in the front end project 
+
+```
+$ cd src/comments-ui
+$ npm install / npm i
 ```
 
 ### Test in Development
 
 ```
-$ npm run test
+$ npm run test or npm test
+```
+
+To test only in the fron end project
+```
+$ cd src/comments-ui 
+$ npm test
 ```
 ### Build for production
 
