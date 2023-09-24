@@ -51,12 +51,12 @@ UI Snapshot
 You should see the application as in this snapshot :
 1. Initial Load
 
-![Comments](public/images/comments-initial.png)
+![Comments](../../public/images/comments-initial.png)
 
 2. Use Postman Request to send comments to your application
 
-![PostmanReq](public/images/postman-request.png)
+![PostmanReq](../../public/images/postman-request.png)
 
 2. With Comments
 
-![CommentsAll](public/images/comments-all.png)
+![CommentsAll](../../public/images/comments-all.png)
