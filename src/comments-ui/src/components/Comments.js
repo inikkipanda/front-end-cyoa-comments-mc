@@ -68,7 +68,7 @@ const Comments = ({ socket, selectedUserId }) => {
         {comments.length < 1 ? `Add a comment`
           : comments.length === 1 ? `1 comment` : `${comments.length} comments`}
       </span> 
-      <span className="comments-title-icon"> <FaTrash title="Delete All Comments" onClick={() => deleteAllComments()} /> </span>
+      <span className="comments-title-icon"> <FaTrash data-testid="deleteComments" title="Delete All Comments" onClick={() => deleteAllComments()} /> </span>
       </h3>
 
       <div className="comments-list">

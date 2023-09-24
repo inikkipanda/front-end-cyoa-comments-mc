@@ -43,9 +43,9 @@ const Header = ({ socket, selectedUserId }) => {
       {
         count>0 &&
         <Fragment>
-        <button className="header-notifications__btn" onClick={() => clearNotificaitons()}> Mark Read </button>
+        <button className="header-notifications__btn" data-testid="clearNotifications" onClick={() => clearNotificaitons()}> Mark Read </button>
         <p data-testid="headerNotification">
-          <RefreshIcon className="header-notifications__icon" />  You have {count} new comment(s).
+          <RefreshIcon className="header-notifications__icon" data-testid="iconNotifications"  />  You have {count} new comment(s).
         </p>
         </Fragment>
       }
