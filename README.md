@@ -18,7 +18,7 @@ This project is created using create react app. If you do not have the configura
   ```
 2. If you have issues with Python or node-gyp, please make sure to download it separately using npm.
 
-### Run in Development
+### Install/Run in Development
 
 ```
 $ npm install
