@@ -1,0 +1,40 @@
+
+.header {
+    display: flex;
+    padding: 8px 16px;
+    height: 32px;
+    background-color: rgb(60, 113, 212);
+    color: white;
+    border-bottom: 1px solid #0f1014;
+  }
+  
+  .header-notifications {
+    margin-left: auto;
+    position: relative;
+  }
+
+  .header-notifications__icon {
+    margin-left: auto;
+    position: relative;
+    font-size: 15px;
+  }
+  
+  .header-notifications__btn {
+    background-color: azure;
+    color: rgb(60, 113, 212);
+    border: 1px solid transparent;
+    padding: 4px 8px;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 14px;
+    border-radius: 4px;
+    margin: auto 4% auto auto;
+  }
+  
+  .header-user {
+    display: flex;
+    float: right;
+    align-items: center;
+    color: white
+  }
+  

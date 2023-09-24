@@ -1,0 +1,13 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100vw;
+  background-color: #20222b;
+}
+
+.error-text {
+  color: firebrick;
+  font-size: 13px;
+  margin-bottom: 10px;
+}

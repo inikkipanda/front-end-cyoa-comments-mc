@@ -1,0 +1,115 @@
+
+.comments {
+    width: 390px;
+    margin-left: auto;
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+  }
+  
+  .comments-title {
+    color: #20222b;
+    margin: 16px;
+    font-size: 16px;
+    font-weight: normal;
+  }
+  .comments-title-icon {
+    color: #20222b;
+    float: right;
+  }
+  .comments-list {
+    overflow-y: auto;
+    border-top: 1px solid #0f1014;
+  }
+  
+  .comments-box {
+    margin-top: auto;
+    border-top: 1px solid azure;
+    padding: 16px;
+  }
+  
+  .comments-box__input {
+    background-color: rgb(15 16 20);
+    border: 1px solid transparent;
+    font-family: inherit;
+    font-size: 16px;
+    color: azure;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 72px;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+  
+  .comments-box__input:focus,
+  .comments-box__input:active {
+    background-color: black;
+    appearance: none;
+  }
+  
+  .comments-box__btn {
+    background-color: rgb(60, 113, 212);
+    color: #fff;
+    border: 1px solid transparent;
+    padding: 4px 8px;
+    display: inline-block;
+    appearance: none;
+    font-family: inherit;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-left: auto;
+  }
+  
+  .comments-box__btn:disabled {
+    background-color: #ccc;
+  }
+  
+  .comment {
+    padding: 16px;
+    border-bottom: 1px solid azure;
+    color: black;
+    max-height: fit-content;
+  }
+  
+  .comment-header {
+    margin-bottom: 4px;
+    align-items: left;
+  }
+  
+  .comment-avatar {
+    width: 24px;
+    height: 24px;
+    background-color: #15151c;
+    border-radius: 100%;
+    margin-right: 8px;
+    overflow: hidden;
+  }
+  
+  .comment-avatar img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .comment-author {
+    font-weight: 600;
+    font-size: 14px;
+    margin-right: 8px;
+    max-width: 30px;
+    align-items: top;
+  }
+  
+  .comments-time {
+    font-size: 14px;
+    float: right;
+    color: rgb(125 130 154);
+  }
+  
+  .comment-body {
+    color: #20222b;
+    margin: 10px;
+    width: 100px;
+    word-wrap: break-word;
+  }
