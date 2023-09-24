@@ -51,7 +51,9 @@ $ npm run build
 
 ### Using the Application
 
-- Assumption : User management is not included in this sample project and hence the default user is set as "Nikki".
+- Assumption : 
+a. User management is not included in this sample project and hence the default user is set as "Nikki".
+b. The left side main panel is kept blank as a placeholder for the main CYOA components which the comments feed can support.
 
 1. To post a comment, please type in to the Comment box and click on the submit button. Once submittied, you should see it in the feed. The view will always scroll to the latest feed in the comments box.
 Note : The max input size is 250 characters.
