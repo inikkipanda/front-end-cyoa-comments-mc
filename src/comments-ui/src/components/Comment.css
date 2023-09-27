@@ -1,11 +1,12 @@
 
 .comments {
-    width: 390px;
+    width: 40vh;
+    min-width: 350px;
     margin-left: auto;
-    height: 620px;
+    height: 92.5vh;
     display: flex;
     flex-direction: column;
-    background-color: azure;
+    background-color: aliceblue;
   }
   
   .comments-title {
